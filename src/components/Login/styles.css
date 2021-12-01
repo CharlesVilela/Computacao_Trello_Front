@@ -37,3 +37,18 @@ input {
     font-style: oblique;
     text-align: center;
 }
+
+.imagem_google {
+    width: 500px;
+
+    margin-top: -75px;
+    margin-left: 450px;
+}
+
+.imagem_facebook {
+    width: 500px;
+
+    margin-top: -48px;
+    margin-left: 500px;
+}
+

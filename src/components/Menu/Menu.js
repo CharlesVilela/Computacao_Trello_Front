@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import '../components/components.styles.css'
-import logo from '../imagem/logo.png'
-import Cadastrar from "../views/Usuario/Cadastrar.js"
+import './styles.css';
+import logo from '../../imagens/logo.png';
+//import Cadastrar from './Usuario/Cadastrar.js';
 
 function irCadastrar() {
     return console.log('Foi')
@@ -10,9 +10,9 @@ function irCadastrar() {
 function Menu() {
     return (
         <nav className="nav">
-            <div>
+            <header>
                 <img src={logo}></img>
-            </div>
+            </header>
             <div className="div_cadastrar">
                 <button onClick={irCadastrar}>Cadastrar</button>
             </div>

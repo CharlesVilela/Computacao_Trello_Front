@@ -1,5 +1,11 @@
+import { Link } from 'react-router-dom';
 import '../components/components.styles.css'
 import logo from '../imagem/logo.png'
+import Cadastrar from "../views/Usuario/Cadastrar.js"
+
+function irCadastrar() {
+    return console.log('Foi')
+}
 
 function Menu() {
     return (
@@ -7,9 +13,8 @@ function Menu() {
             <div>
                 <img src={logo}></img>
             </div>
-
             <div className="div_cadastrar">
-                <a>Cadastrar</a>
+                <button onClick={irCadastrar}>Cadastrar</button>
             </div>
         </nav>
     );

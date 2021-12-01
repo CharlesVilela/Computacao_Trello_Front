@@ -1,6 +1,6 @@
 import './stylesGlobal.css';
-import Login from '../views/Login/Login.js';
-import Menu from '../components/Menu.js';
+import Login from './components/Login/Login.js';
+import Menu from './components/Menu.js';
 
 function App() {
   return (
